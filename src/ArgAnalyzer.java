@@ -14,7 +14,7 @@ public class ArgAnalyzer {
         String lon = "";
         String id = "";
         String key = "";
-        if(args.length < 2 || args.length > 6) throw new IllegalArgumentException("Podano niewłaściwe argumenty. Użycie: --longitude x " +
+        if(args.length < 2 || args.length > 7) throw new IllegalArgumentException("Podano niewłaściwe argumenty. Użycie: --longitude x " +
                 "--latitude y lub --sensor-id x (opcjonalne argumenty: --apikey x, --history)");
         for(int i = 0; i < args.length; i++) {
             if(Pattern.matches("--latitude",args[i])){
