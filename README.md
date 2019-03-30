@@ -1,13 +1,13 @@
-# klient_airly
+# Klient Airly API
 
-#korzystam z zewnętrznej biblioteki org.json
+Prosty program konsolowy napisany w celu nauki wykorzystania API
 
-#argumenty wywołania:
+Argumenty wywołania:
 
-#--latitude x i --longitude x   <- współrzędne sensora
+--latitude x i --longitude x   <- współrzędne sensora
 
-#--sensor-id x                  <- id konkretnego sensora
+--sensor-id x                  <- id konkretnego sensora
 
-#--history                      <- czy wyświetlić historię pomiarów
+--history                      <- czy wyświetlić historię pomiarów
 
-#--apikey x                     <- wykorzystanie innego klucza api niż moj
+--apikey x                     <- wykorzystanie innego klucza api
